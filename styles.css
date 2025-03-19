@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #982aff;
     --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-texto: #dca9fd;
+    --alto-contraste-link: #ff00c8;
 }
 
 body {
@@ -24,7 +24,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #4a0ed8;
     font-weight: 600;
 }
 
@@ -36,7 +36,7 @@ section {
     background-position: right;
     border-radius: 80px;
     width: 100%;
-    height: 800px;
+    height: 606px;
     padding: 40px;
     margin: 0 auto;
 }
@@ -45,11 +45,17 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 40rem;
-    width: 20rem;
+    top: 18rem;
+    width: 45rem;
     height: auto;
 }
 
+.img-fluid {
+    right: 20rem;
+    top: 24rem;
+    width: 300px;
+    height: 650px; 
+}
 
 .esquerda-conteudo {
     display: flex;
