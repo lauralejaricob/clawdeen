@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #982aff;
+    --roxo: #982aff;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #dca9fd;
     --alto-contraste-link: #ff00c8;
@@ -44,17 +44,17 @@ section {
 /* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
-    right: 0;
-    top: 18rem;
-    width: 45rem;
-    height: auto;
-}
-
-.img-fluid {
     right: 20rem;
     top: 24rem;
     width: 300px;
     height: 650px; 
+}
+
+.img-fluide {
+    right: 20rem;
+    top: 24rem;
+    width: 200px;
+    height: 450px; 
 }
 
 .esquerda-conteudo {
@@ -66,7 +66,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--roxo);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -76,7 +76,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--roxo);
 }
 
 
@@ -85,9 +85,9 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 150px 210px;
+    background: url('img/Clawdeen\ 2.png') top right no-repeat,
+        url('img/Clawdeen\ 3.png') bottom left no-repeat;
+    background-size: 130px 250px;
 }
 
 .p-2 {
@@ -108,23 +108,25 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--roxo);
 }
 
 #galeria {
     background-color: #FAF4F4;
+    border-radius: 80px;
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background: url('img/Clawdeen\ 4.png') bottom right no-repeat;
+    background-size: 130px 250px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/Fundo\ contato.jpg');
     background-size: cover;
     padding: 4rem 0;
+    border-radius: 80px;
     /* Espaçamento interno para a seção de contato */
 
 }
@@ -141,7 +143,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #741a65;
     border: none;
     font-weight: bold;
 }
@@ -205,5 +207,6 @@ h2 {
     background-color: var(--alto-contraste-fundo);
 }
 .alto-contraste .fundo-galeria {
-    background: none;
+    background: rgb(163, 36, 236);
+    border-radius: 80px;
 }
