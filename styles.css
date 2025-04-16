@@ -22,16 +22,13 @@ section {
     padding-bottom: 5rem;
 }
 
-
 .nav-link {
-    color: #4a0ed8;
+    color: #741a65;
     font-weight: 600;
 }
 
 .inicio-fundo {
-    /* aula 3 */
-    background-image: url('img/4965007.jpg');
-    /* Substitua pelo caminho da sua imagem */
+    background-image: url('img/fundo.jpg');
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -41,7 +38,6 @@ section {
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
     right: 20rem;
@@ -100,7 +96,6 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
 }
 
 
@@ -127,18 +122,13 @@ h2 {
     background-size: cover;
     padding: 4rem 0;
     border-radius: 80px;
-    /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
     background-color: #ffffff;
     padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
-    /* Borda arredondada para o formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
@@ -151,6 +141,7 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+
 .menu-acessibilidade{
     position: fixed;
     top:2rem;
