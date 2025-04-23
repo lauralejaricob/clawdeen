@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --roxo: #982aff;
+    --roxo: #8301fc;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #dca9fd;
     --alto-contraste-link: #ff00c8;
 }
 
 body {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat';
 }
 
